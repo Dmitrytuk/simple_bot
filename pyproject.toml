@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "simple telegram bot"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Ivanov <ydimail@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "bot", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+tgcrypto = "^1.2.5"
+python-telegram-bot = "^21.5"
+aiohttp = "^3.10.6"
+aiofiles = "^24.1.0"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
