@@ -1,2 +1,8 @@
+.env
 poetry.lock
 
+src/bot/.env
+src/bot/mother_bot.session
+__pycache__
+
+statics
